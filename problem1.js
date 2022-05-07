@@ -1,2 +1,10 @@
-var myName = "Rahul"
-console.log(myName)
+
+// You are provided with a number, "**N**". Find its factorial.
+// Answer :-
+
+var N = 7 ;
+var fact = 1 ;
+for( var  i = 1 ; i <= N ; i++){
+  fact = fact * i ;
+}
+console.log(fact) ;

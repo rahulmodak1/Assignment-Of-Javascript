@@ -1,4 +1,4 @@
-﻿
+
 
 **Programming with JavaScript Assignment**
 
@@ -153,9 +153,6 @@ Print the sum of values from 1 to N.
 3
 
 
-
-
-
 **PROBLEM 7**
 
 You are provided with a number "N", Find the Nth term of the series: 1 , 4, 9, 16, 25,
@@ -212,7 +209,8 @@ Lorem Ipsum
 
 You are given the coefficients of a quadratic equation in order A, B & C.
 
-Where A is the coefficient of X2, B is the coefficient of X and C is the constant
+Where A is the
+ coefficient of X2, B is the coefficient of X and C is the constant
 
 term in the most simplified form.
 
