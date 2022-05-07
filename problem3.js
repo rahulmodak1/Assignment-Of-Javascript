@@ -1,8 +1,8 @@
 
-var side1 = 22; 
-var side2 = 22; 
-var side3 = 22; 
-var s = (side1 + side2 + side3)/2;
-var area =  Math.sqrt(s*((s-side1)*(s-side2)*(s-side3)));
-// console.log(Math.round(area))
-console.log(area.toFixed(2));
+function area(a){
+    let result;
+    result = (Math.sqrt(3)*a*a)/4;
+    return result.toFixed(2);
+}
+
+ console.log(area(22))
