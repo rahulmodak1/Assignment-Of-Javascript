@@ -1,7 +1,3 @@
-// The area of an equilateral triangle is ¼(√3a2) where "**a**" represents a side of the
-
-// triangle. You are provided with the side "**a**". Find the area of the equilateral triangle :-
-// Answer :-
 
 var side1 = 22; 
 var side2 = 22; 
