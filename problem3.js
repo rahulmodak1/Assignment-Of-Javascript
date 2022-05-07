@@ -5,4 +5,4 @@ function area(a){
     return result.toFixed(2);
 }
 
- console.log(area(22))
+ console.log(" Problem3 -", area(22))

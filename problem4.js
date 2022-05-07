@@ -1,11 +1,9 @@
-// You will be provided with a number. Print the number of days in the month
 
-// corresponding to that number:-
-//   Answer :-
-
-var getDaysInMonth = function (month , year ){
-   return new Date( year , month , 0 ).getDate() ;
-  
+function month(n){
+    let months = [31,28,31,30,31,30,31,31,30,31,30,31];
+    if(n>=1 && n<=12){
+        return months[n-1];
+    }
+    return "Error"
 }
-console.log(getDaysInMonth( 2 ,2020))
-  
+ console.log(" Problem4 -", month(9));

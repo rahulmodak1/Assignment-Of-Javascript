@@ -1,6 +1,14 @@
-arr = [1,2,3,4,5,6];
-arr1 = [];
-for (let i = arr.length - 1; i >= 0; i--) {
-    arr1.push(arr[i]);
+
+function leftRotate(n,s,arr){
+    let finalArr = [];
+
+    for(let i=s;i<n;i++){
+        finalArr.push(arr[i]);
+    }
+    for(let i=0;i<s;i++){
+        finalArr.push(arr[i]);
+    }
+
+    return finalArr;
 }
-console.log(arr1);
+ console.log(" Problem14 -" , leftRotate(7,2,[1, 2, 3, 4, 5, 6, 7]))

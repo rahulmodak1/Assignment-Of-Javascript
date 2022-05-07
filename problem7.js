@@ -1,6 +1,10 @@
-var N = 2 ;
-var fact ;
-for( var  i = 1 ; i <= N ; i++){
-  fact =  i * i ;
-}
-console.log(fact) ;
+
+function Nterm(n){
+    if(n<0){
+        return "Error";
+    }
+    else{
+        return n*n;
+    }
+}``
+ console.log(" Problem7 -" ,Nterm(5));

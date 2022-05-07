@@ -1,10 +1,9 @@
-// Ajay is given a series(In example).he gone through the series but unable to understand it properly,he has hired you.Your task is to understand the series and print the series 2,6,12,20,30... .You are given with a number ‘n’. Find the nth number of series.
 
- // Answer :-
-
-
-var n = 6 ;
-function findNthTermSeries(n){
-  return n * (n + 1) ;
+function series(n){
+    let val=2;
+    for(i=2;i<=n;i++){
+        val = val + 2*i;
+    }
+    return val;
 }
-console.log(findNthTermSeries(n)) ;
+ console.log(" Problem13 -" ,series(6))
